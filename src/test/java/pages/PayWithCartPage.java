@@ -16,4 +16,28 @@ public class PayWithCartPage extends ReusableMethods {
 
     @FindBy(xpath = "//div[@id=\"SnackBar\"]/span")
     public WebElement invalidErrors;
+
+    @FindBy(xpath = "//div[1]/p[1]/input")
+    public WebElement emailInput;
+
+    @FindBy(xpath = "//div[1]/p[2]/input")
+    public WebElement emailVerifyInput;
+
+    @FindBy(xpath = "//div[1]/p[3]/input")
+    public WebElement nameOnCardInput;
+
+    @FindBy(xpath = "//div/span/input")
+    public WebElement cardNoInput;
+
+    @FindBy(xpath = "//div[@id='SnackBar']/span")
+    public WebElement invalidCardError;
+
+    @FindBy(xpath = "//span[1]/span/span/input")
+    public WebElement cardExpDateInput;
+
+    @FindBy(xpath = "//span[2]/span/span/input")
+    public WebElement cardCVVInput;
+
+    @FindBy(css = "div[role='checkbox']")
+    public WebElement checkBoxBtn;
 }
