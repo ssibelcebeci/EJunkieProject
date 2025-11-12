@@ -15,4 +15,7 @@ public class HomePage extends ReusableMethods {
 
     @FindBy(xpath = "//button[@class='view_product']")
     public List<WebElement> demoEBook;
+
+    @FindBy(xpath = "//a[@class='contact']")
+    public WebElement contactUsBtn;
 }
