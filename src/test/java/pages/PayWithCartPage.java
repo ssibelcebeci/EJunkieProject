@@ -6,14 +6,14 @@ import org.openqa.selenium.support.PageFactory;
 import utils.BaseDriver;
 import utils.ReusableMethods;
 
-public class AddToCartPage extends ReusableMethods {
-    public AddToCartPage() {
+public class PayWithCartPage extends ReusableMethods {
+    public PayWithCartPage() {
         PageFactory.initElements(BaseDriver.driver,this);
     }
 
-    @FindBy(xpath = "//h3[@class='Title']")
-    public WebElement cartProductText;
+    @FindBy(xpath = "//button[@class='Pay-Button']")
+    public WebElement payBtn;
 
-    @FindBy(xpath = "//button[@class='Payment-Button CC']")
-    public WebElement payWithCartOpt;
+    @FindBy(xpath = "//div[@id=\"SnackBar\"]/span")
+    public WebElement invalidErrors;
 }

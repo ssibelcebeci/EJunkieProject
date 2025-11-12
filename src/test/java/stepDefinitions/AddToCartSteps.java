@@ -4,12 +4,17 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import pages.AddToCartPage;
 import pages.HomePage;
 import utils.ConfigReader;
 import utils.ReusableMethods;
+
+import java.time.Duration;
+import java.util.List;
 
 public class AddToCartSteps extends ReusableMethods {
 
@@ -28,12 +33,16 @@ public class AddToCartSteps extends ReusableMethods {
 
     @When("Verify that e book successfully added to cart")
     public void verify_that_e_book_successfully_added_to_cart() {
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("iframe[class='EJIframeV3 EJOverlayV3']")));
+        WebElement iframeYourCart = driver.findElement(By.cssSelector("iframe[class='EJIframeV3 EJOverlayV3']"));
+        driver.switchTo().frame(iframeYourCart);
         wait.until(ExpectedConditions.visibilityOf(atcp.cartProductText));
-        verifyContainsText(atcp.cartProductText, "Demo");
+        verifyContainsText(atcp.cartProductText, "Cart");
     }
 
     @When("Click on the add promo code button")
     public void click_on_the_add_promo_code_button() {
+
     }
 
     @When("Enter an invalid \\(random) promo code into the specified field.")
