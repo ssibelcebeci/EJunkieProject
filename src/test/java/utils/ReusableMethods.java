@@ -50,4 +50,5 @@ public class ReusableMethods extends BaseDriver {
     public void waitForElementsToBeVisible(List<WebElement> elements) {
         wait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
+
 }

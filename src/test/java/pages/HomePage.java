@@ -6,13 +6,20 @@ import org.openqa.selenium.support.PageFactory;
 import utils.BaseDriver;
 import utils.ReusableMethods;
 
-import java.util.List;
-
 public class HomePage extends ReusableMethods {
     public HomePage() {
-        PageFactory.initElements(BaseDriver.driver,this);
+        PageFactory.initElements(BaseDriver.driver, this);
     }
+    @FindBy(linkText = "wiki/user/themes/Wiki/images/logo.svg?12")
+    public WebElement eJunkieLinkText;
 
-    @FindBy(xpath = "//button[@class='view_product']")
-    public List<WebElement> demoEBook;
+    @FindBy(linkText = "//a[@onclick='toggleYoutubeModal(true)']")
+    public WebElement seeHowItWorksBtn;
+
+    @FindBy(linkText = "https://www.youtube.com/embed/kODFTdj9Ifc")
+    public WebElement iFrameYouTube;
+
+    @FindBy(xpath= "//button[@class='modal-close is-large']")
+    public WebElement windowCloseBtn;
+
 }
