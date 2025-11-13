@@ -84,6 +84,6 @@ Future expansions can include performance, API, and multi-device testing.
 
 📁 *This document is part of a larger QA portfolio and presented in a case-study format.*
 
-![done](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eDc3eDJxdGlndm01NTczcXJlaDdrdXVmanp1Z2k2bnNnNjF5NzNwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/vcXoSxqSfPESS5AzF4/giphy.gif)
+![done]([https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eDc3eDJxdGlndm01NTczcXJlaDdrdXVmanp1Z2k2bnNnNjF5NzNwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/vcXoSxqSfPESS5AzF4/giphy.gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXZ2NmVmejdtYzFrcXdqZ3VtZDlkM3k1cWUweGgwcnBkMnVxZDd1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFy6GHOgb6ttzM7nQJ/giphy.gif))
 
 </div>
