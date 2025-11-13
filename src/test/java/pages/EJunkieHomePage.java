@@ -13,4 +13,10 @@ public class EJunkieHomePage extends ReusableMethods {
 
     @FindBy(xpath = "//a[@class='blue_btn']")
     public WebElement howItWorksBtn;
+
+    @FindBy(css = ".ytp-large-play-button")
+    public WebElement playBtn;
+
+    @FindBy(xpath = "//button[@aria-label='close']")
+    public WebElement close;
 }
