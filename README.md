@@ -23,7 +23,14 @@ e-commerce product. Each flow mirrors a real-customer journey.
 **Discover → Select → Pay → Receive → Communicate → Navigate**
 
 Mapped to the following US set:
-301 / 302 / 303 / 304 / 305 / 306 / 307 / 308
+301 /
+ 302 /
+  303 /
+   304 /
+    305 /
+   306 /
+  307 /
+308 /
 
 Each story represents a touchpoint in the journey.
 
@@ -40,9 +47,11 @@ Each story represents a touchpoint in the journey.
 ---
 
 ## **05 — Tools Used**
-Java 22 • Selenium 4.38 • Cucumber BDD  
-TestNG • Maven • DataFaker  
-ChromeDriver 142  
+• Java 22 
+• Selenium 4.38 
+• Cucumber BDD  
+• TestNG 
+• Maven 
 
 ---
 
