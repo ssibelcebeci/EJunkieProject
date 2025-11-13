@@ -22,4 +22,9 @@ public class HomePage extends ReusableMethods {
     @FindBy(xpath= "//button[@class='modal-close is-large']")
     public WebElement windowCloseBtn;
 
+    @FindBy(xpath = "//button[@class='view_product']")
+    public List<WebElement> demoEBook;
+
+    @FindBy(xpath = "//a[@class='contact']")
+    public WebElement contactUsBtn;
 }
