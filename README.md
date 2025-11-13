@@ -54,6 +54,10 @@ Cucumber BDD
 TestNG  
 Maven  
 
+### **Browser & Driver**
+Chrome 142  
+ChromeDriver 142  
+
 ---
 
 ## **Key Observations**
@@ -66,9 +70,10 @@ Primary and alternative environment differ in load flow
 
 ## **Crew**
 Sibel Cebeci  
-İbrahim Huseynli
-Ramazan Doğan
-Gürhan Ataş 
+Ibrahim Huseynli  
+Ramazan Doğan  
+Gürhan Ataş  
+
 ---
 
 ## **Conclusion**
