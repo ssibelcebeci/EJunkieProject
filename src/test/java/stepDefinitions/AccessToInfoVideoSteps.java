@@ -9,7 +9,7 @@ import utils.ReusableMethods;
 
 public class AccessToInfoVideoSteps extends ReusableMethods {
 
-    EJunkieHomePage ejhp=new EJunkieHomePage();
+    EJunkieHomePage ejhp = new EJunkieHomePage();
 
     @Given("Navigate to the main webpage")
     public void navigate_to_the_main_webpage() {

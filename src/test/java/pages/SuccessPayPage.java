@@ -11,7 +11,7 @@ public class SuccessPayPage extends ReusableMethods {
         PageFactory.initElements(BaseDriver.driver,this);
     }
 
-    @FindBy(xpath = "//div[2]/div/div/p/span")
+    @FindBy(css = "//div[2]/div/div/p/span")
     public WebElement orderConfirmedText;
 
     @FindBy(xpath = "//div[2]/div/div/p/span")

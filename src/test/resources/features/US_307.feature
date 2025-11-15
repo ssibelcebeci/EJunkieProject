@@ -1,7 +1,7 @@
-Feature: Home feature
+Feature: Demo feature
 
-  Scenario:Homepage visible.
-    Given Navigate to the main webpage
-    When Click seeHowItWorks button
-    And Click play button
-    Then Close the window after ten sec
+  Scenario:E-commerce link visible.
+    Given Navigate to the demopage
+    When Click e-commerce link
+    When Click ejunkie logo
+    Then Verify home page opened

@@ -1,4 +1,5 @@
 Feature: Download Invoice
+
   Background: Payment of Item
     Given Navigate to the website
     Then Click add to cart for the demo e book option
@@ -7,5 +8,6 @@ Feature: Download Invoice
     Then Fill valid card details
     When CLick pay button
     Then Verify successful payment text
-    Scenario: User downloads Invoice
-      Given User clicks on download button
+
+  Scenario: User downloads Invoice
+    Given User clicks on download button

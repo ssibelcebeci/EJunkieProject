@@ -1,4 +1,5 @@
 Feature: Add to Cart Demo Ebook functionality
+
   Scenario: Add to cart success
     Given Navigate to the website
     When Click add to cart for the demo e book option

@@ -28,11 +28,10 @@ public class CardPaymentNegative extends ReusableMethods {
         mySendKeys(pwcp.cardNoInput, cardNo);
     }
 
-
     @Then("Verify invalid card number error")
     public void verifyInvalidCardNumberError() {
         driver.switchTo().parentFrame();
         myClick(pwcp.payBtn);
-        verifyContainsText(pwcp.invalidCardError, "invalid");
+        verifyContainsText(pwcp.invalidCardError, "geçersiz");
     }
 }

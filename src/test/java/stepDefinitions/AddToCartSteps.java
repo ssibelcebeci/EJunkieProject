@@ -6,20 +6,15 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import pages.AddToCartPage;
 import pages.HomePage;
 import utils.ConfigReader;
 import utils.ReusableMethods;
 
-import java.time.Duration;
-import java.util.List;
-
 public class AddToCartSteps extends ReusableMethods {
 
-    HomePage hp=new HomePage();
-    AddToCartPage atcp=new AddToCartPage();
+    HomePage hp = new HomePage();
+    AddToCartPage atcp = new AddToCartPage();
 
     @Given("Navigate to the website")
     public void navigate_to_the_website() {

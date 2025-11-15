@@ -6,15 +6,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import pages.AddToCartPage;
-import pages.HomePage;
 import pages.PayWithCartPage;
 import utils.ReusableMethods;
 
 public class FaultyPaymentSteps extends ReusableMethods {
 
-    HomePage hp=new HomePage();
-    AddToCartPage adcp=new AddToCartPage();
-    PayWithCartPage pwcp=new PayWithCartPage();
+    AddToCartPage adcp = new AddToCartPage();
+    PayWithCartPage pwcp = new PayWithCartPage();
 
     @When("Click the “Pay with Debit Card” option on the cart page")
     public void click_the_pay_with_debit_card_option_on_the_cart_page() {
